@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap-css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Travelo</title>
+</head>
+<body>
+    <!-- bootstrap-js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div class="body-wrap container-fluid">
+        <header class="container-fluid">
+            <nav class = "nav navbar">
+                <a class="nav-link nav-item" href="#"> <img class="border-0" src="travel_logo.jpg" alt="logo" height=40px width= 40px> Travelo </a>
+                <!-- to display responsive menu label and checkbox are used -->
+                    <label for="menubtn" class="d-md-none"> <i class="fa fa-bars font-awesome-icon"></i> </label>
+                    <input type="checkbox" id="menubtn" name="menubtn" class="d-none">
+                    <div class="d-none d-md-block">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark active" href="web.html"> Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark " href="#about"> About </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark " href="#places"> Places </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark " href="#"> Career </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark " href="#blogs"> Blog </a>
+                        </li>
+                    </ul>
+                    </div>
+                <button type="button" class="btn btn-primary btn-sm rounded-pill d-md-block d-none">Connect</button>
+                </button>
+                
+            </nav>
+        </header>
+
+        <section class="container-fluid">
+                <div class = "background-img explore-section">
+                    <div class= "layer">
+                    <div class="text-on-img-wrap col-md-7 ">
+                        <h1 class="font-weight-bold "> TRAVEL TO EXPLORE </h1>
+                        <div class="sub-explore-text" >
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                            </p>
+                        </div>
+                        <div class="explore-form-wrap">
+                        <form class="d-flex flex-wrap justify-content-between" method="post" action="#">
+                            <div class="col-md-6 col-lg-3 col-6" > 
+                                <label class="text-start"> Where you Want to go </label> <br> 
+                                <!-- <span class="fas fa-search font-awsome-icon d-inline-block"></span> -->
+                                <input type="text" class="location-input fa-solid fa-magnifying-glass" name="location" placeholder="Search your location"> 
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-6 border-left">
+                                <label> Check-in </label> <br>
+                                <label for="checkInDate" class="grey-text" > Add Date </label>
+                                <input type="date" id="checkInDate" class="" name="Check-in" placeholder="Add Date"> 
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-6 border-left ">
+                                <label> Check-out </label> <br>
+                                <label for="checkOutDate" class="grey-text"> Add Date </label>
+                                <input type="date" id="checkOutDate" name="Check-out" class="" placeholder="Add Date">
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-6 ">
+                                <button type="submit" class="btn btn-lg " name="Explore" value="Explore Now"> Explore Now </button>
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        </section>
+<!-- about section starts here -->
+        <div class="d-flex justify-content-between feature-section container-fluid row" id="about">
+            <div class="col-md-6 col-sm-12 col-lg-3 flex-shrink-1 my-2">
+            <div class="card shadow" >
+                <div class="card-body">
+                    <h5 class="card-title card-img-container"> <img src="discount01.png" alt="best pricing" > </h5>
+                    <h5 class="card-title">Get Best Prices</h5>
+                    <p class="card-text">Pay through our application and save thousands and get amazing rewards</p>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-3 flex-shrink-1 my-2">
+            <div class="card shadow" >
+                <div class="card-body">
+                    <h5 class="card-title card-img-container"> <img src="corona-safty01.png" alt="best pricing" > </h5>
+                    <h5 class="card-title">Covid Safe</h5>
+                    <p class="card-text">We have all the cureted hotels that have all the for covid safe environment</p>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-3 flex-shrink-1 my-2">
+            <div class="card shadow" >
+                <div class="card-body">
+                    <h5 class="card-title card-img-container"> <img src="paymant01.png" alt="best pricing" > </h5>
+                    <h5 class="card-title">Flexibal Payment</h5>
+                    <p class="card-text">Enjoy the flexibal payment through our app and get rewards on every payment</p>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-3 flex-shrink-1 my-2">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h5 class="card-title card-img-container"> <img src="find-near01.png" alt="best pricing" > </h5>
+                    <h5 class="card-title">Find the Best Near You</h5>
+                    <p class="card-text">Find the best hotels and places to visit near you in single click</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+<!-- places recomandation section starts -->
+        <div class="recommendation-wrap my-3 container-fluid">
+            <div class="recommendation-dest ">
+                <h1 class="recommendation-title" id="places"> Recommended Destination </h1>
+                <div class="recommendation-list-container">
+                    <ul class= "d-flex ">
+                        <li><a href="#" class="text-decoration-none"> The Weekend Break </a></li>
+                        <li><a href="#" class="text-decoration-none"> The Package Holiday  </a></li>
+                        <li><a href="#" class="text-decoration-none"> The Group Tour  </a></li>
+                        <li><a href="#" class="text-decoration-none"> Long Term Slow Travel  </a></li>
+                    </ul>
+                </div>
+                <div class="card-view-wrap">
+                    <div class="dest-card-group container-fluid row gx-5">
+                        <div class="card dest-card col-lg-4 col-md-6">
+                            <img src="https://images.unsplash.com/photo-1569288063643-5d29ad64df09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" class="card-img-top shadow" alt="Singapore">
+                            <div class="card-body">
+                                <h5 class="card-title">Singapore</h5>
+                                <p class="card-text">Singapore, officially the republic of Singapore, is a </p>
+                                <div class="d-fle float-start">
+                                    <label class="mx-1"> <span class="fab fa-hotel font-awsome-icon"></span> </label>
+                                    <label class="mx-1"> <span class="fas fa-hamburger font-awsome-icon"></span> </label>
+                                    <label class="mx-1"> <span class="fas fa-plane font-awsome-icon"></span> </label>
+                                </div>
+                                <div class="float-end pricing">
+                                    <span> &#8377; 38,000 </span> 
+                                </div>
+                                <div> &nbsp; </div>
+                                <div class="card-subtext-numbers d-flex justify-content-between w-100">
+                                <span> 1000 Kms </span>
+                                <span> Approx 2 night trip </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card dest-card col-lg-4 col-md-6">
+                            <img src="https://images.unsplash.com/photo-1569155829632-148eea0844af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=856&q=80" class="card-img-top shadow" alt="Thailand">
+                            <div class="card-body">
+                                <h5 class="card-title">Thailand</h5>
+                                <p class="card-text">Thailand is a Southest As ian country. It's known for </p>
+                                <div class="d-fle float-start">
+                                    <label class="mx-1"> <span class="fab fa-hotel font-awsome-icon"></span> </label>
+                                    <label class="mx-1"> <span class="fas fa-hamburger font-awsome-icon"></span> </label>
+                                    <label class="mx-1"> <span class="fas fa-plane font-awsome-icon"></span> </label>
+                                </div>
+                                <div class="float-end pricing">
+                                    <span> &#8377; 38,000 </span> 
+                                </div>
+                                <div> &nbsp; </div>
+                                <div class="card-subtext-numbers d-flex justify-content-between w-100">
+                                <span> 1000 Kms </span>
+                                <span> Approx 2 night trip </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card dest-card col-lg-4 col-md-6">
+                            <img src="https://images.unsplash.com/photo-1545721264-afab304e89d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" class="card-img-top shadow" alt="Paris">
+                            <div class="card-body">
+                                <h5 class="card-title">Paris</h5>
+                                <p class="card-text">Paris, France's capital, is a major European city and a </p>
+                                <div class="d-fle float-start">
+                                    <label class="mx-1"> <span class="fab fa-hotel font-awsome-icon"></span> </label>
+                                    <label class="mx-1"> <span class="fas fa-hamburger font-awsome-icon"></span> </label>
+                                    <label class="mx-1"> <span class="fas fa-plane font-awsome-icon"></span> </label>
+                                </div>
+                                <div class="float-end pricing">
+                                    <span> &#8377; 38,000 </span> 
+                                </div>
+                                <div> &nbsp; </div>
+                                <div class="card-subtext-numbers d-flex justify-content-between w-100">
+                                <span> 1000 Kms </span>
+                                <span> Approx 2 night trip </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card dest-card col-lg-4 col-md-6">
+                            <img src="https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" class="card-img-top shadow" alt="New Zealand">
+                            <div class="card-body">
+                                <h5 class="card-title">New Zealand</h5>
+                                <p class="card-text">New zealand is an island country in the    </p>
+                                <div class="d-fle float-start">
+                                    <label class="mx-1"> <span class="fab fa-hotel font-awsome-icon"></span> </label>
+                                    <label class="mx-1"> <span class="fas fa-hamburger font-awsome-icon"></span> </label>
+                                    <label class="mx-1"> <span class="fas fa-plane font-awsome-icon"></span> </label>
+                                </div>
+                                <div class="float-end pricing">
+                                    <span> &#8377; 38,000 </span> 
+                                </div>
+                                <div> &nbsp; </div>
+                                <div class="card-subtext-numbers d-flex justify-content-between w-100">
+                                <span> 1000 Kms </span>
+                                <span> Approx 2 night trip </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card dest-card col-lg-4 col-md-6">
+                            <img src="https://images.unsplash.com/photo-1589197331516-4d84b72ebde3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" class="card-img-top shadow" alt="Bora Bora">
+                            <div class="card-body">
+                                <h5 class="card-title">Bora Bora</h5>
+                                <p class="card-text">Bora Bora is small south pacific island northwest of </p>
+                                <div class="d-fle float-start">
+                                    <label class="mx-1"> <span class="fab fa-hotel font-awsome-icon"></span> </label>
+                                    <label class="mx-1"> <span class="fas fa-hamburger font-awsome-icon"></span> </label>
+                                    <label class="mx-1"> <span class="fas fa-plane font-awsome-icon"></span> </label>
+                                </div>
+                                <div class="float-end pricing">
+                                    <span> &#8377; 38,000 </span> 
+                                </div>
+                                <div> &nbsp; </div>
+                                <div class="card-subtext-numbers d-flex justify-content-between w-100">
+                                <span> 1000 Kms </span>
+                                <span> Approx 2 night trip </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card dest-card col-lg-4 col-md-6">
+                            <img src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bG9uZG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top shadow" alt="London">
+                            <div class="card-body">
+                                <h5 class="card-title">London</h5>
+                                <p class="card-text">London, the capitol of England and united </p>
+                                <div class="d-fle float-start">
+                                    <label class="mx-1"> <span class="fab fa-hotel font-awsome-icon"></span> </label>
+                                    <label class="mx-1"> <span class="fas fa-hamburger font-awsome-icon"></span> </label>
+                                    <label class="mx-1"> <span class="fas fa-plane font-awsome-icon"></span> </label>
+                                </div>
+                                <div class="float-end pricing">
+                                    <span> &#8377; 38,000 </span> 
+                                </div>
+                                <div> &nbsp; </div>
+                                <div class="card-subtext-numbers d-flex justify-content-between w-100">
+                                <span> 1000 Kms </span>
+                                <span> Approx 2 night trip </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<!-- Blog section starts here  -->
+        <div class="container-fluid blog-section-container mb-5">
+            <h2 class="text-center my-5 fw-bold fs-2 " id="blogs"> Blogs </h2>
+            <div class="blog-post-container row d-flex gx-4"> 
+                <div class="col-md-6 box-left position-relative me-md-4">
+                    <div class="layer"> 
+                        <div class="position-relative w-100 h-100"> <p class="position-absolute center"> The Ultimate Guide to Climbing Mount Kilimanjaro </p> </div> 
+                    </div>
+                </div>
+                <div class="col-md-5 d-md-flex flex-column box-right flex-grow-1 ms-md-2">
+                    <div class="first row mb-md-2">
+                        <div class="layer">
+                            <div class="position-relative w-100 h-100"> <p class="position-absolute"> 12 Things I'd Tell Any New Traveler </p> </div>
+                        </div>
+                    </div>
+                    <div class="second row mt-md-3">
+                        <div class="layer">
+                            <div class="position-relative w-100 h-100"> <p class="position-absolute"> The Ultimate Packing List for Female Traveler </p> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- customer review section starts here  -->
+        <div class="container-fluid customer-review my-5">
+            <div class="title">
+                <h2 class="text-center "> Happy Customers </h2>
+            </div>
+            <div class="row g-5 justify-content-center">
+                <div class="col-md-5 col-9">
+                    <card>
+                        <div class="review-card row shadow ">
+                            <div class="col-1 ">
+                                <img src="https://cdn-icons-png.flaticon.com/512/56/56937.png" class="img-thumbnail border-0">
+                            </div>
+                            <div class="col-11 ">
+                                <div class="d-inline-block review-text ">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                </div>
+                                <div class="d-flex customer-profile">
+                                    <div>
+                                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aHVtYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="profilepic" class="img-thumbnail profile-pic rounded-circle ">
+                                    </div>
+                                    <div>
+                                        <h3 class="customer-name"> Shalini Singh </h3>
+                                        <span class="customer-designetion"> Project manager flyhigh </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </card>
+                </div>
+                <div class="col-md-5 col-9">
+                    <card>
+                        <div class="review-card row shadow ">
+                            <div class="col-1 ">
+                                <img src="https://cdn-icons-png.flaticon.com/512/56/56937.png" class="img-thumbnail border-0">
+                            </div>
+                            <div class="col-11 ">
+                                <div class="d-inline-block review-text ">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                </div>
+                                <div class="d-flex customer-profile">
+                                    <div>
+                                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aHVtYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="profilepic" class="img-thumbnail profile-pic rounded-circle ">
+                                    </div>
+                                    <div>
+                                        <h3 class="customer-name"> Shalini Singh </h3>
+                                        <span class="customer-designetion"> Project manager flyhigh </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </card>
+                </div>
+            </div>
+        </div>
+
+<!-- footer starts here -->
+        <footer class="container-fluid">
+            <div class="footer d-flex justify-content-between ">
+                <div>
+                    <span> Copyright &copy;2020 Travelo. All rights reserved </span>
+                </div>
+                <div class="footer-menu">
+                    <ul class="d-flex m-0 p-0 ">
+                        <li> <a href="web.html"> Home </a></li>
+                        <li> <a href="#about"> About </a></li>
+                        <li> <a href="#places"> Places </a></li>
+                        <li> <a href="#"> Careers </a></li>
+                        <li> <a href="#blogs"> Blog </a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <ul class="d-flex  flex-md-row flex-column list-unstyled">
+                        <li> <a href="#" class="fa fa-facebook">  </a></li>
+                        <li> <a href="#" class="fa fa-linkedin">  </a></li>
+                        <li> <a href="#" class="fa fa-instagram">  </a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
